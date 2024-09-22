@@ -13,8 +13,10 @@ This project focuses on classifying traffic signs by their shape and type using 
 **Dataset**
 * The dataset contains 446 independent test images and 2,219 training images. The dataset was split into 60% training, 20% validation, and 20% test sets.
 * Images were preprocessed by zooming in or cropping to focus on the traffic signs.
-* There are 5 traffic sign shapes ![image](https://github.com/user-attachments/assets/a82751bc-f4b6-4f1f-beba-d53cd8ccc1cb)
-* There are 16 traffic sign types ![image](https://github.com/user-attachments/assets/68134b5f-07e7-4764-a638-5d0fb9f59ae9)
+* There are 5 traffic sign shapes:
+  * ![image](https://github.com/user-attachments/assets/a82751bc-f4b6-4f1f-beba-d53cd8ccc1cb)
+* There are 16 traffic sign types:
+  * ![image](https://github.com/user-attachments/assets/68134b5f-07e7-4764-a638-5d0fb9f59ae9)
 
 **Methodology**
 1. Data Preprocessing:
@@ -28,7 +30,7 @@ This project focuses on classifying traffic signs by their shape and type using 
 3. CNN Architectures:
 * LeNet CNN: A simple architecture designed for small images (28x28), achieving 99% accuracy in shape classification and effectively capturing features from traffic signs.
 * VGG CNN: A more complex architecture that significantly improved performance, especially on independent datasets, with accuracy exceeding 80% on unseen data.
-* 
+
 4. Type Classification:
 * A separate CNN model was trained to classify traffic signs by type.
 * The model achieved high accuracy (99%) in type classification on the training set, but struggled with more complex and diverse sign types in the independent dataset.
