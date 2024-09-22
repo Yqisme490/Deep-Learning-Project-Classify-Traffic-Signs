@@ -11,8 +11,8 @@ This project focuses on classifying traffic signs by their shape and type using 
 * Handling Imbalanced Classes: Techniques were implemented to address the imbalance in the dataset, particularly for underrepresented shapes like hexagonal signs.
 
 **Dataset**
-The dataset contains 446 independent test images and 2,219 training images. The dataset was split into 60% training, 20% validation, and 20% test sets.
-Images were preprocessed by zooming in or cropping to focus on the traffic signs.
+* The dataset contains 446 independent test images and 2,219 training images. The dataset was split into 60% training, 20% validation, and 20% test sets.
+* Images were preprocessed by zooming in or cropping to focus on the traffic signs.
 
 **Methodology**
 1. Data Preprocessing:
