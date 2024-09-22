@@ -1,6 +1,6 @@
 # Traffic Sign Classification using Convolutional Neural Networks (CNNs)
 
-**Overview**
+**Overview:**
 
 This project focuses on classifying traffic signs by their shape and type using Convolutional Neural Networks (CNNs). The task involves the use of deep learning techniques to accurately identify and classify traffic signs, even in cases where images are of lower quality. We experimented with different neural network architectures, including LeNet and VGG, to improve model performance.
 
