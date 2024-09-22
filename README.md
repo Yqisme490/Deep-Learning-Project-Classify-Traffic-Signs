@@ -13,6 +13,8 @@ This project focuses on classifying traffic signs by their shape and type using 
 **Dataset**
 * The dataset contains 446 independent test images and 2,219 training images. The dataset was split into 60% training, 20% validation, and 20% test sets.
 * Images were preprocessed by zooming in or cropping to focus on the traffic signs.
+* There are 5 traffic sign shapes ![image](https://github.com/user-attachments/assets/a82751bc-f4b6-4f1f-beba-d53cd8ccc1cb)
+* There are 16 traffic sign types ![image](https://github.com/user-attachments/assets/68134b5f-07e7-4764-a638-5d0fb9f59ae9)
 
 **Methodology**
 1. Data Preprocessing:
@@ -48,3 +50,5 @@ This project focuses on classifying traffic signs by their shape and type using 
 * Python
 * TensorFlow / Keras
 * Convolutional Neural Networks (CNNs)
+
+
